@@ -1,4 +1,3 @@
 function download(subject) {
-    alert("Téléchargement des sujets pour: " + subject);
-    // Ici, vous pouvez ajouter le code pour télécharger les fichiers appropriés.
+    alert("Les sujets à la veille seront bientôt disponibles sur ce site, mais pas gratuitement. Vous pouvez consulter à chaque moment pour voir les mises à jour.");
 }
