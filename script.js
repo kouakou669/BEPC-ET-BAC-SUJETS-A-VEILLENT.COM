@@ -1,3 +1,5 @@
-function download(subject) {
-    alert("Les sujets à la veille seront bientôt disponibles sur ce site, mais pas gratuitement. Vous pouvez consulter à chaque moment pour voir les mises à jour.");
+function showNotification() {
+    const snackbar = document.getElementById("snackbar");
+    snackbar.className = "show"; // Ajoute la classe pour afficher la notification
+    setTimeout(() => { snackbar.className = snackbar.className.replace("show", ""); }, 3000); // Cache après 3 secondes
 }
